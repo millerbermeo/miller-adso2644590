@@ -1,0 +1,84 @@
+@font-face{
+    font-family: boy;
+    src: url('../fuentes/bay.ttf');
+}
+
+@font-face{
+    font-family: panton;
+    src: url('../fuentes/panton.ttf');
+}
+
+@font-face{
+    font-family: ufc;
+    src: url('../fuentes/ufc.otf');
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #F2F2F2;
+}
+
+.container1{
+    display: flex;
+    background-color: red;
+    height: 48px;
+}
+
+.container1 a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-family: boy;
+}
+
+.container1 .mover {
+    margin-left: 1008px;
+}
+
+.container1 a:hover{
+    background-color: rgb(105, 105, 231);
+}
+
+/*diviciones 2*/
+
+h1{
+    font-family: ufc;
+    text-align: center;
+    font-size: 40px;
+}
+
+.container2{
+    display: flex;
+}
+
+.container2 a img{
+    width: 230px;
+    height: 260px;
+    padding-left: 20px;
+}
+
+.move2 img{
+    margin-left: 180px;
+}
+
+h2{
+    background-color: red;
+    text-decoration: none;
+    margin-top: 25px;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    margin-left: 600px;
+    border-radius: 25px;
+    font-family: boy;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.boton:hover{
+    background-color: aqua;
+}
+
